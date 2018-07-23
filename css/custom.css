@@ -40,7 +40,7 @@ a.btn .icon-caret, .btn .icon-caret {
     color: inherit;
 }
 #left-sidebar.sidebar-nav li a{
-    color:inherit;
+    color:#333;
     font-size:13px;
 }
 .navbar-search .navbar-default .navbar-toggle .icon-bar{
@@ -586,4 +586,74 @@ a.remove_rating:hover{
 
 .global-server-container {
     display: none;
+}
+
+header.header-default{
+    background: #f2f2f2 !important;
+}
+
+header .brand h1 {
+    color: #000000;
+}
+
+header a, header i {
+    color: #878787 !important;
+}
+
+.navbar {
+    background: #2E404D !important;
+}
+
+.search-wrap>.form-control, .search-wrap .btn.wrap-input-right {
+    background-color: #2E404D !important;
+}
+
+.search-wrap .dropdown-toggle {
+    background-color: #2E404D !important;
+    border: #2E404D !important;
+    border-right: none;
+}
+
+footer {
+    min-height: 70px;
+    display: flex;
+    background: transparent;
+    color: #555555;
+}
+
+footer a, footer a:hover {
+    color: #555555;
+}
+
+footer .container-fluid {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+footer .container-fluid .cont-icon-cercomp {
+    width: 33%;
+}
+
+footer .container-fluid .cont-icon-seti {
+    width: 30%;
+    text-align: center;
+}
+
+footer .container-fluid .cont-icon-ufg {
+    width: 33%;
+    text-align: right;
+}
+
+footer .container-fluid .cont-icon-ufg img {
+    width: 36px;
+}
+
+nav.navigation > ul {
+    background: #F2F2F2;
+    color: #333;
 }

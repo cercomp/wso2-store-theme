@@ -74,7 +74,9 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container-fluid">
-        <p>WSO2 API Manager 2.1.0 | &copy; <script>document.write(new Date().getFullYear());</script> <a title="WSO2" href="http://wso2.com/" target="_blank"><i class="icon fw fw-wso2"></i> Inc</a>.</p>
+	<div class="cont-icon-seti">
+		API UFG | &copy; <script>document.write(new Date().getFullYear());</script> <a title="SeTI" href="https://seti.ufg.br/" target="_blank">Secretaria de Tecnologia e Informacao</a> | Cercomp | UFG
+	</div>
       </div>
     </footer>
     
