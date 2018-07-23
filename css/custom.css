@@ -675,3 +675,12 @@ header .nav > li > a > span.hidden-xs {
 header .brand img.logo {
     height: 36px;
 }
+
+.data-container {
+    border-left: 3px solid #2DADA9;
+}
+
+header .nav > li > a {
+    height: 60px;
+    padding: 12px 15px;
+}
