@@ -657,3 +657,17 @@ nav.navigation > ul {
     background: #F2F2F2;
     color: #333;
 }
+
+header .nav > li > a:hover,
+header .nav > li > a:focus {
+    background: transparent;
+}
+
+header .nav > li > a:hover > span.hidden-xs,
+header .nav > li > a:hover > .icon > i.fw {
+    color: #000000 !important;
+}
+
+header .nav > li > a > span.hidden-xs {
+    font-weight: 800;
+}
