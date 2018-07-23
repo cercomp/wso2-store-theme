@@ -34,7 +34,7 @@ if (blackListedTenantDomains_forTutorial.indexOf(tenantDomain)>0) {
     <div class="container-fluid">
        <div class="pull-left brand float-remove-xs text-center-xs">
           <a href="<%=jagg.getMappedUrl("/site/pages/index.jag")%>" title="API Store">
-              <img src="<%=jagg.getAbsoluteUrl(jagg.getThemeFile("libs/theme-wso2_1.0/images/logo-inverse.svg"))%>" class="logo" alt="<%=i18n.localize("API Store Home")%>"/>
+              <img src="<%=jagg.getAbsoluteUrl(jagg.getThemeFile("libs/theme-wso2_1.0/images/logo_api.png"))%>" class="logo" alt="<%=i18n.localize("API Store Home")%>"/>
               <h1 class="display-block-xs"><%=i18n.localize("API Store")%></h1>
           </a>
        </div>

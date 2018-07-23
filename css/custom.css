@@ -671,3 +671,7 @@ header .nav > li > a:hover > .icon > i.fw {
 header .nav > li > a > span.hidden-xs {
     font-weight: 800;
 }
+
+header .brand img.logo {
+    height: 36px;
+}
