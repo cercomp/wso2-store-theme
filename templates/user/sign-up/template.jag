@@ -33,7 +33,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 login padding-bottom-100"">
                         <div class="data-container">
                             <form class="form-horizontal" id="sign-up" autocomplete="off">
-                                <h3>Create your Account</h3>
+                                <h3>Crie sua conta</h3>
                                 <div class="form-group">
                                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                                         <label class="control-label"><%=i18n.localize("Username")%> *</label>
@@ -52,7 +52,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                                         <label class="control-label"><%=i18n.localize("Password")%> *</label>
                                         <div class="input-group input-wrap">
-                                            <input id="newPassword" name="newPassword" type="password"  autocomplete="off" class="form-control password validPassword" placeholder="Password">
+                                            <input id="newPassword" name="newPassword" type="password"  autocomplete="off" class="form-control password validPassword" placeholder="Senha">
                                         </div>
                                         <div class="help-block" id="password-help" style="display:none">
 							              <%=i18n.localize("For a more secure password:")%>
@@ -69,7 +69,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                                         <label class="control-label"><%=i18n.localize("Re-type Password")%> *</label>
                                         <div class="input-group input-wrap">
-                                            <input id="newPasswordConfirm" type="password" class="form-control matchPasswords" placeholder="Password" autocomplete="off" >
+                                            <input id="newPasswordConfirm" type="password" class="form-control matchPasswords" placeholder="Senha" autocomplete="off" >
                                         </div>
                                     </div>
                                 </div>

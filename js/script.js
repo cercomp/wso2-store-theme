@@ -68,11 +68,11 @@ $(window).load(function() {
             triggerEl = $('.sign-up-additional');
         if (el.is(':hidden')) {
             el.slideDown(function() {
-                triggerEl.text('Hide Additional Details');
+                triggerEl.text('Ocultar detalhes adicionais');
             });
         } else {
             el.slideUp(function() {
-                triggerEl.text('Show Additional Details');
+                triggerEl.text('Ver detalhes adicionais');
             })
         }
     })

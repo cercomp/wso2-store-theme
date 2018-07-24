@@ -27,7 +27,7 @@ $(document).ready(function() {
     $("#newUsername").charCount({
         allowed: 30,
         warning: 20,
-        counterText: i18n.t('Characters left: ')
+        counterText: i18n.t('Caracteres restantes: ')
     });
 
 });
