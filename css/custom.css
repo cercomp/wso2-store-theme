@@ -658,7 +658,10 @@ nav.navigation > ul {
 }
 
 header .nav > li > a:hover,
-header .nav > li > a:focus {
+header .nav > li > a:focus,
+header .nav .open > a,
+header .nav .open > a:hover,
+header .nav .open > a:focus {
     background: transparent;
 }
 
