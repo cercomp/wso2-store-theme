@@ -694,3 +694,20 @@ header .nav .dropdown-menu {
 header .nav .dropdown-menu > li:not(.divider) {
     border-bottom: 1px solid #dedede;
 }
+
+ul.sublevel-menu {                                                     
+   background-color: #F2F2F2;                                   
+}                                                         
+                                                                        
+nav.navigation ul > li.yellow > ul.sublevel-menu .icon {                   
+   background: #F2F2F2;                                        
+   color: #333333;                                        
+}                                                                    
+                                                                              
+ul.sublevel-menu li a:hover {                             
+   background-color: rgba(33, 33, 33, 0.05);              
+}                                                                               
+                                                          
+nav.navigation ul > li ul.sublevel-menu li a:hover .icon {                         
+   background-color: rgba(33, 33, 33, 0.05);              
+}
