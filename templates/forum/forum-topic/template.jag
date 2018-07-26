@@ -63,7 +63,7 @@
         </div>
     </div>
     <div class="user_rating col-xs-8 col-sm-8 col-md-11 col-lg-11">
-        Your Rating : <span class="your_rating"><%if(inputs.userRating){%><%= inputs.userRating %>/5<%}else{ %>N/A<%} %></span><br>
+        Sua Avaliação : <span class="your_rating"><%if(inputs.userRating){%><%= inputs.userRating %>/5<%}else{ %>N/A<%} %></span><br>
         <input class="rating-tooltip-manual rate_save" type="hidden" value="<%= inputs.userRating %>"> <a class="remove_rating" title="remove_rating"><i class="fa fa-times-circle"></i></a>
     </div>
   </div>
@@ -103,8 +103,8 @@
         </div>
 
         <div id="no_topic_msg" class="message message-info" style="display:none;">
-            <h4><i class="icon fw fw-info"></i>No replies found.</h4>
-            <p>You can start adding replies below</p>
+            <h4><i class="icon fw fw-info"></i>Nenhuma resposta encontrada.</h4>
+            <p>Você pode começar a adicionando respostas abaixo</p>
         </div>
 
         {{#each replies.replies}}
