@@ -711,3 +711,23 @@ ul.sublevel-menu li a:hover {
 nav.navigation ul > li ul.sublevel-menu li a:hover .icon {                         
    background-color: rgba(33, 33, 33, 0.05);              
 }
+
+.data-container .btn-primary {
+    color: #ffffff;
+    background-color: #2dada9;
+    border: 1px solid #2dada9;
+}
+
+.btn-primary.disabled:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary.disabled.focus, 
+.btn-primary[disabled]:hover, 
+.btn-primary[disabled]:focus, 
+.btn-primary[disabled].focus, 
+fieldset[disabled] .btn-primary:hover, 
+fieldset[disabled] .btn-primary:focus, 
+fieldset[disabled] .btn-primary.focus {
+    background-color: #216E73;
+    border-color: #216E73;
+}
+
