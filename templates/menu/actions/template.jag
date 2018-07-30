@@ -71,7 +71,7 @@
                                     <i class="fw fw-left fw-stack-1x"></i>
                                     <i class="fw fw-circle-outline fw-stack-2x"></i>
                                 </span>
-                                Go back
+                                <%=i18n.localize("Go Back")%>
                             </a>
                         </li> 	                        
 	                    <% } else if(inputs.page == "forum/forum-list") {%>
