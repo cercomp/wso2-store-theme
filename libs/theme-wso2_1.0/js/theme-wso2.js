@@ -246,7 +246,7 @@ var responsiveTextRatio = 0.2,
                     'lip' +
                     '>',
                     language: {
-                        searchPlaceholder: 'Filter by ...',
+                        searchPlaceholder: 'Pesquisar...',
                         search: ''
                     },
                     initComplete: function () {
