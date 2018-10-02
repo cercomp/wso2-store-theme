@@ -51,7 +51,7 @@
     </script>
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="<%=jagg.getAbsoluteUrl(jagg.getThemeFile("images/favicon-store.png"))%>">
+    <link rel="shortcut icon" href="<%=jagg.getAbsoluteUrl(jagg.getThemeFile("images/logo_api.png"))%>">
 
     <%
     var data = jagg.data();
