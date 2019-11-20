@@ -589,40 +589,45 @@ a.remove_rating:hover{
 }
 
 header.header-default{
-    background: #f2f2f2 !important;
+    background: #FFFFFF !important;
 }
 
 header .brand h1 {
     color: #000000;
+    font-weight: 600;
+    top: 11px;
+    position: relative;
+    font-size: 20px;
 }
 
 header a, header i {
-    color: #878787 !important;
+    color: #FFFFFF !important;
 }
 
 .navbar {
-    background: #2E404D !important;
+    background: #2D8531 !important;
 }
 
 .search-wrap>.form-control, .search-wrap .btn.wrap-input-right {
-    background-color: #2E404D !important;
+    background-color: #2D8531 !important;
 }
 
 .search-wrap .dropdown-toggle {
-    background-color: #2E404D !important;
-    border: #2E404D !important;
+    background-color: #2D8531 !important;
+    border: #2D8531 !important;
     border-right: none;
 }
 
 footer {
     min-height: 70px;
     display: flex;
-    background: transparent;
-    color: #555555;
+    background: #2d8531;
+    color: #FFFFFF;
+    font-weight: 500;
 }
 
 footer a, footer a:hover {
-    color: #555555;
+    color: #FFFFFF;
 }
 
 footer .container-fluid {
@@ -633,6 +638,7 @@ footer .container-fluid {
     padding-bottom: 10px;
     padding-right: 50px !important;
     padding-left: 50px !important;
+    justify-content: center;
 }
 
 footer .container-fluid .cont-icon-cercomp {
@@ -674,8 +680,12 @@ header .nav > li > a > span.hidden-xs {
     font-weight: 800;
 }
 
+header .brand {
+    padding: 20px 60px;
+}
+
 header .brand img.logo {
-    height: 36px;
+    height: 50px;
 }
 
 .data-container {
@@ -684,11 +694,12 @@ header .brand img.logo {
 
 header .nav > li > a {
     height: 60px;
-    padding: 12px 15px;
+    /* padding: 12px 15px; */
+    padding: 12px 40px;
 }
 
 header .nav .dropdown-menu {
-    background: #FFFFFF;
+    background: #333333;
 }
 
 header .nav .dropdown-menu > li:not(.divider) {
@@ -731,3 +742,67 @@ fieldset[disabled] .btn-primary.focus {
     border-color: #216E73;
 }
 
+.menu2 {
+    width: 63%;
+    background-color: #4caf50;
+    background-image: url(https://api.ufg.br/up/1099/o/colmeia_topo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 15px 0;
+}
+
+.container-fluid {
+    padding-right: 0px;
+}
+
+.tag-title {
+    background-color: #2D8531;
+    border: 1px solid #2D8531;
+}
+
+nav.navigation ul > li.green .icon,
+nav.navigation ul > li.orange .icon,
+nav.navigation ul > li.yellow .icon,
+nav.navigation ul > li.blue .icon,
+nav.navigation ul > li.purple .icon {
+    background: transparent;
+    color: #2d8531;
+}
+
+nav.navigation ul > li.green.active .icon,
+nav.navigation ul > li.green:hover .icon,
+nav.navigation ul > li.orange.active .icon,
+nav.navigation ul > li.orange:hover .icon,
+nav.navigation ul > li.yellow.active .icon,
+nav.navigation ul > li.yellow:hover .icon,
+nav.navigation ul > li.blue.active .icon,
+nav.navigation ul > li.blue:hover .icon,
+nav.navigation ul > li.purple.active .icon,
+nav.navigation ul > li.purple:hover .icon {
+    background: #4CAF50;
+    color: #FFFFFF;
+}
+
+nav.navigation .left-menu-item {
+    font-weight: 500;
+}
+
+nav.navigation ul > li.purple:hover .left-menu-item,
+nav.navigation ul > li.purple.active .left-menu-item,
+nav.navigation ul > li.purple.hover .left-menu-item,
+nav.navigation ul > li.green:hover .left-menu-item,
+nav.navigation ul > li.green.active .left-menu-item,
+nav.navigation ul > li.green.hover .left-menu-item,
+nav.navigation ul > li.orange:hover .left-menu-item, 
+nav.navigation ul > li.orange.active .left-menu-item, 
+nav.navigation ul > li.orange.hover .left-menu-item,
+nav.navigation ul > li.yellow:hover .left-menu-item, 
+nav.navigation ul > li.yellow.active .left-menu-item, 
+nav.navigation ul > li.yellow.hover .left-menu-item,
+nav.navigation ul > li.blue:hover .left-menu-item, 
+nav.navigation ul > li.blue.active .left-menu-item, 
+nav.navigation ul > li.blue.hover .left-menu-item {
+    background: #4CAF50;
+    color: white;
+}
