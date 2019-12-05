@@ -806,3 +806,32 @@ nav.navigation ul > li.blue.hover .left-menu-item {
     background: #4CAF50;
     color: white;
 }
+
+.white-wrapper {
+    border-radius: 14px;
+    -webkit-box-shadow: -3px 3px 16px 0px rgba(189,183,189,1);
+    -moz-box-shadow: -3px 3px 16px 0px rgba(189,183,189,1);
+    box-shadow: 1px 3px 8px 1px #bdb7bd;
+}
+
+.thumbnail.icon {
+    border-radius: 14px 14px 0 0;
+    background: #fec35b;
+}
+
+.app-data p.truncate {
+    font-weight: 600;
+    color: darkgray;
+}
+
+.app-data h4.truncate {
+    font-weight: 600;
+}
+
+.app-data h4.truncate a {
+    color: slategrey;
+}
+
+.app-data h5 a {
+    color: slategrey;
+}

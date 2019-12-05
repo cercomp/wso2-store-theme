@@ -33,7 +33,8 @@ if (blackListedTenantDomains_forTutorial.indexOf(tenantDomain)>0) {
 <header class="header header-default">
     <div class="container-fluid">
        <div class="pull-left brand float-remove-xs text-center-xs">
-          <a href="<%=jagg.getMappedUrl("/site/pages/index.jag")%>" title="API Store">
+	   	  <!-- <a href="<%=jagg.getMappedUrl("/site/pages/index.jag")%>" title="API Store"> -->
+	   	  <a href="https://api.ufg.br" title="API Store">
               <!-- <img src="<%=jagg.getAbsoluteUrl(jagg.getThemeFile("libs/theme-wso2_1.0/images/logo_api.png"))%>" class="logo" alt="<%=i18n.localize("API Store Home")%>"/> -->
 			  <img src="https://api.ufg.br/up/1141/o/Marca_Portal.svg?1573045833" class="logo" alt="<%=i18n.localize("API Store Home")%>"/>
               <h1 class="display-block-xs">UFG</h1>
