@@ -41,7 +41,7 @@ if(request.getParameter("type") == "prototyped"){
       <div class="input-group-btn">
         <a class="help_popup" title="<%=i18n.localize("Search Options")%>" rel="popover" data-popover-content="#apiSearchTips" data-placement="bottom">
           <span class="icon fw-lg  add-margin-bottom-1x add-margin-left-2x" style="font-size:16px;">
-            <i class="fw fw-info fw-inverse" title="<%=i18n.localize("Search Options")%>"></i>
+            <i class="fa fa-info-circle fw-inverse" title="<%=i18n.localize("Search Options")%>"></i>
           </span>            
         </a>
       </div>
