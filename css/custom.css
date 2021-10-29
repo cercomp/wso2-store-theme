@@ -689,7 +689,9 @@ header .brand img.logo {
 }
 
 .data-container {
-    border-left: 3px solid #2DADA9;
+    border-left: 3px solid #4CAF50;
+    border-radius: 0 18px 18px 0;
+    padding: 10px 130px;
 }
 
 header .nav > li > a {
@@ -727,6 +729,11 @@ nav.navigation ul > li ul.sublevel-menu li a:hover .icon {
     color: #ffffff;
     background-color: #2dada9;
     border: 1px solid #2dada9;
+    border-radius: 5px;
+}
+
+.data-container .btn-secondary {
+    border-radius: 5px;
 }
 
 .btn-primary.disabled:hover, 
@@ -851,4 +858,45 @@ nav.navigation ul > li.blue.hover .left-menu-item {
 .pagination > li > a:hover, 
 .pagination > li > span, .pagination > li > span:hover {
   color: #2D8531;
+}
+
+.btn-primary:active:hover, 
+.btn-primary:active:focus, 
+.btn-primary:active.focus, 
+.btn-primary.active:hover, 
+.btn-primary.active:focus, 
+.btn-primary.active.focus, 
+.open > .btn-primary.dropdown-toggle:hover, 
+.open > .btn-primary.dropdown-toggle:focus, 
+.open > .btn-primary.dropdown-toggle.focus {
+  background-color: #4CAF50;
+}
+
+.data-container .btn-primary {
+  background-color: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+
+.login-form-wrapper > .row {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.login-form-wrapper > .row > div{
+  display: flex;
+  align-items: center;
+}
+
+.login-form-wrapper > .row > .login {
+  padding-right: 0px;
+}
+
+.policy-alert-warning {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.data-container a, .login a {
+  color: #2d8531;
 }
